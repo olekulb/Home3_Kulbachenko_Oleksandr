@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="author" content="Oleksandr Kulbachenko">
+    <title>HW-3 Form Kulbachenko Oleksandr</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<section>
+    <h1>Формы</h1>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Коротко о себе</legend>
+            <p>
+                <label>Имя: <input type="text" name="first_name"></label>
+            </p>
+            <p>
+                <label>Фамилия: <input type="text" name="second_name"></label>
+            </p>
+            <p>
+                Пол: 
+                <label><input type="radio" checked name="gender" value="male"> мужской</label>
+                <label><input type="radio" name="gender" value="female"> женский</label>
+            </p>
+            <p>
+                <label>Возраст: <input type="text" name="age" size="3"> лет</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Подробнее о себе</legend>
+            <ul>
+                <li>
+                    <label><input type="radio" checked name="sex" value="man"> Молодой человек</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="sex" value="woman"> Девушка</label>
+                </li>
+                <li>
+                    <label><input type="text" name="birthday"> Дата рождения</label>
+                </li>
+                <li>
+                    <label><input type="text" name="family"> Семейное положение</label>
+                </li>
+                <li>
+                    <label><input type="text" name="social"> Социальный статус</label>
+                </li>
+                <li>
+                    <label><input type="text" name="address"> Местожительство</label>
+                </li>
+            </ul>
+            <p class="bld-only">Что вы обычно делаете на выходных:</p>
+            <ul>
+                <li>
+                    <label><input type="checkbox" name="sleep">Сплю</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="walk">Гуляю с друзьями</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="fishing">Хожу на рыбалку</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="games">Играю в игры</label>
+                </li>
+            </ul>
+            <p class="bld-only">Рассказать о формах в книге, посвященной HTML:</p>
+            <select name="books" id="book">
+                <option value="0">Site frequency:</option>
+                <option value="1">https://www.twirpx.com/file/960296/</option>
+                <option value="2">http://freecomputerbooks.com/HTML5-for-Web-Designers.html</option>
+                <option value="3">https://www.kobo.com/us/en/ebook/html-xhtml-and-css-for-dummies</option>
+            </select>
+            <p class="bld-only">Сколько книг выпрочитали за свою жизнь:</p>
+            <ul>
+                <li>
+                    <label><input type="radio" name="book" value="10"> 0-10</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="book" value="20"> 11-20</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="book" value="50"> 21-50</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="book" value="100"> 50+</label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <label for="coments" class="bld-only">Ваши комментарии:</label>
+                </li>
+                <li>
+                    <textarea name="comments" cols="60" rows="10" id="coments"></textarea>
+                </li>
+            </ul>
+            <select name="position" multiple size="3" id="#">
+                <option value="1">Первая позиция</option>
+                <option selected value="2">Вторая позиция</option>
+                <option value="3">Третья позиция</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>И в заключении</legend>
+            <input type="text" size="30" placeholder="Это поле было введено до вас">
+            <ul>
+                <li>
+                   <label for="form-email" class="bld-only">Email:</label>
+                </li>
+                <li>
+                     <input type="email" name="mail"  size="30" id="form-email">
+                </li>
+            </ul>
+            <ul>
+                <li class="bld-only">Хотите подписаться на самую модную рассылку спама?</li>
+                <li class="italic-type">Выберите категории</li>
+            </ul>
+            <ul>
+                <li>
+                    <label><input type="checkbox" name="equipment"> Оборудование</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="coocking"> Как приготовить обеды</label>
+                </li>
+                <li>
+                    <label><input type="checkbox" name="million"> Заработай миллион за два дня!</label>
+                </li>
+            </ul>
+            <p class="bld-only">На сколько сложная задача:</p>
+            <ul>
+                <li>
+                    <label><input type="radio" checked name="task" value="1"> Совсем нет</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="task" value="2"> Так себе</label>
+                </li>
+                <li>
+                    <label><input type="radio" name="task" value="3"> Еле справились</label>
+                </li>
+            </ul>
+        </fieldset>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</section>
+</body>
+</html>

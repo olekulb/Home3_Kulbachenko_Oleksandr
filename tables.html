@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <meta name="author" content="Oleksandr Kulbachenko">
+    <title>HW-3 Tables Kulbachenko Oleksandr</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+<header>
+    <h1>Homework #3. Tables</h1>
+</header>
+<section>
+    <h2>Table 1</h2>
+    <span>A test table with merged cells</span>
+    <table>
+        <tbody>
+            <tr>
+                <td rowspan="2"></td>
+                <td colspan="2" class="highlighted">Average</td>
+                <td rowspan="2" class="up">Red<br>eyes</td>
+            </tr>
+            <tr>
+                <td class="highlighted">height</td>
+                <td class="highlighted">width</td>
+            </tr>
+            <tr>
+                <td class="highlighted">Males</td>
+                <td>1.9</td>
+                <td>0.003</td>
+                <td>40%</td>
+            </tr>
+            <tr>
+                <td class="highlighted">Females</td>
+                <td>1.7</td>
+                <td>0.002</td>
+                <td>43%</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2>Table 2</h2>
+    <table class="time-table">
+        <tbody>
+            <tr>
+                <td colspan="6" class="bld">Time Table</td>
+            </tr>
+            <tr>
+                <td rowspan="6" class="bld">Hours</td>
+                <td class="bld">Mon</td>
+                <td class="bld">Tue</td>
+                <td class="bld">Wed</td>
+                <td class="bld">Thu</td>
+                <td class="bld">Fri</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Arts</td>
+            </tr>
+           <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+                <td>Sports</td>
+            </tr>
+            <tr>
+                <td colspan="5" class="bld">Lunch</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>Maths</td>
+                <td>Science</td>
+                <td>Maths</td>
+                <td rowspan="2">Project</td>
+            </tr>
+            <tr>
+                <td>Social</td>
+                <td>History</td>
+                <td>English</td>
+                <td>Social</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <h2>Table 3</h2>
+    <table>
+        <tbody>
+            <tr>
+                <td colspan="3" class="first-row"></td>
+                <td></td>
+                <td rowspan="3" class="first-col"></td>
+            </tr>
+            <tr>
+                <td class="second-row first-col"></td>
+                <td rowspan="2" class="second-col"></td>
+                <td class="third-col"></td>
+                <td class="second-col"></td>
+            </tr>
+           <tr>
+                <td rowspan="2"></td>
+                <td class="first-row"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="third-row"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="first-row"></td>
+                <td></td>
+                <td colspan="3"></td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+</body>
+</html>

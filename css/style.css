@@ -1,0 +1,96 @@
+﻿/*General styles*/
+
+section, header {
+  padding: 0 0 0 30px;
+}
+
+/*Styles for tables*/
+
+span {
+  font-style: italic;
+  font-size: 13px;
+  padding: 0 0 0 75px;
+}
+
+table {
+  border: 2px solid #000;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #000;
+}
+
+.highlighted {
+  padding: 5px 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.up {
+  padding: 0 25px;
+  text-align: center;
+  font-weight: bold;
+  vertical-align: 0;
+}
+
+.time-table {
+  font-family: Verdana, Arial, sans-serif;
+}
+
+.time-table td {
+  padding: 0 5px;
+  border: 1px solid #848484;
+}
+
+.bld {
+  font-weight: bold;
+  text-align: center;
+}
+
+.first-row {
+  height: 35px;
+}
+
+.second-row {
+  height: 20px;
+}
+
+.third-row {
+  height: 25px;
+}
+
+.first-col {
+  width: 80px;
+}
+
+.second-col {
+  width: 30px;
+}
+
+.third-col {
+  width: 55px;
+}
+
+/*Styles for form*/
+
+fieldset {
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.bld-only {
+  font-weight: bold;
+}
+
+.italic-type {
+  font-style: italic;
+}
